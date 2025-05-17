@@ -78,7 +78,7 @@ const FallingLeaves = () => {
       {leaves.map(leaf => (
         <img
           key={leaf.id}
-          src="/leaf.svg"
+          src={`${import.meta.env.BASE_URL}leaf.svg`}
           alt="leaf"
           className="absolute"
           style={{
