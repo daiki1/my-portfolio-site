@@ -1,5 +1,11 @@
 import Me from './Me';
 
+/**
+ *  Header component
+ * Displays the header of the website with the developer's information.
+ * 
+ * @returns {JSX.Element}
+ */
 const Header = () => {
   return (
     <>

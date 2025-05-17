@@ -1,5 +1,10 @@
 import { useTranslation } from 'react-i18next';
 
+/**
+ *  LanguageSwitcher component
+ * Displays a language switcher for English and Spanish.
+ * @returns {JSX.Element}
+ */
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 

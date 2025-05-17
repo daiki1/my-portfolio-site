@@ -2,6 +2,13 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+/**
+ * * i18n configuration
+ * * This file sets up the i18n configuration for the application.
+ * * It initializes the i18n instance with language detection, fallback language,
+ * * * and translation resources.
+ * * The translations are provided in English and Spanish.
+ */
 i18n
   .use(LanguageDetector) // Detects browser language
   .use(initReactI18next) // Passes i18n down to react-i18next
@@ -45,7 +52,8 @@ i18n
                 features: [
                     "React and Vite for fast development",
                     "Responsive design with Tailwind CSS",
-                    "Language switcher (English and Spanish)"
+                    "Language switcher (English and Spanish)",
+                    "Falling leaves animation just for fun",
                 ]
             }               
         },                                  
@@ -95,7 +103,8 @@ i18n
                     features: [
                         "React y Vite para desarrollo rápido",
                         "Diseño responsivo con Tailwind CSS",
-                        "Selector de idioma (inglés y español)"
+                        "Selector de idioma (inglés y español)",
+                        "Animación de hojas cayendo solo por diversión",
                     ]
                 }                
             },              

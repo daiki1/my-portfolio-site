@@ -15,6 +15,7 @@ The site supports **English** and **Spanish** languages with a language switcher
 - Skill hover effect to enlarge skill icons/text  
 - Clear about me section describing my experience and journey  
 - Freelancer status note on contact section  
+- **falling leaf animation** for a natural, dynamic visual touch. Leaves fall from the top of the screen with random positions, rotations, and speeds, creating a calming atmosphere.
 
 ---
 

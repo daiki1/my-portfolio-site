@@ -1,14 +1,23 @@
 import { useTranslation } from 'react-i18next';
 import { projectsMeta  } from '../config';
 
+/**
+ *  Projects component
+ * Displays a list of projects with their details.
+ * 
+ * @returns {JSX.Element}
+ */
 const Projects = () => {
   const { t } = useTranslation();
+  // Fetching the translated projects list from the i18n translation file
   const translatedProjects  = t("projectsList", { returnObjects: true });
+  // Merging the meta data with the translated data
   const projects = projectsMeta.map(meta => ({
     ...meta,
     ...translatedProjects[meta.id],
   }));
 
+  // Sorting projects by the order defined in the meta data
   return (
     <section className="my-8">
       <h2 className="text-2xl font-bold text-orange-900 mb-2">{t('projects')}</h2>

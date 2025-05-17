@@ -6,6 +6,12 @@ import { SiFiverr } from "react-icons/si";
 import { useTranslation } from 'react-i18next';
 import { personalInfo } from '../config';
 
+/**
+ *  Links component
+ * Displays links to the developer's social media and freelancing profiles.
+ * 
+ * @returns {JSX.Element}
+ */
 const Links = () => {
   const { t } = useTranslation();
 

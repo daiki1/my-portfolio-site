@@ -1,5 +1,11 @@
 import { useTranslation } from 'react-i18next';
 
+/**
+ *  AboutMe component
+ *  Displays information about the developer.
+ * 
+ * @returns {JSX.Element}
+ */
 const AboutMe = () => {
   const { t } = useTranslation();
 

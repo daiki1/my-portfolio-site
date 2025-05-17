@@ -1,0 +1,18 @@
+/* This is a CSS file for a falling leaves animation */
+@keyframes fallRight {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+@keyframes fallLeft {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(-360deg);
+  }
+}

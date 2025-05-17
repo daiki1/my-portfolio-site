@@ -1,6 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { personalInfo } from '../config';
 
+/**
+ *  Footer component
+ * Displays the footer of the website with copyright information.
+ * 
+ * @returns {JSX.Element}
+ */
 const Me = () => {
   const { t } = useTranslation();
 
