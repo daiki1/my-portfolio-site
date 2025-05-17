@@ -35,3 +35,8 @@ The site supports **English** and **Spanish** languages with a language switcher
    ```bash
    git clone https://github.com/daiki1/my-portfolio-site.git
    cd my-portfolio-site
+   ```
+
+2. To sent changes to my GitHub Page
+   npm run build
+   npm run deploy
