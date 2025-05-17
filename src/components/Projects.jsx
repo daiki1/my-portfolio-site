@@ -19,7 +19,7 @@ const Projects = () => {
 
   // Sorting projects by the order defined in the meta data
   return (
-    <section className="my-8">
+    <section className="my-8 text-justify">
       <h2 className="text-2xl font-bold text-orange-900 mb-2">{t('projects')}</h2>
       <p className="mb-4">
         {t('aboutPrivate')}

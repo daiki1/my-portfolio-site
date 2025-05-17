@@ -12,10 +12,10 @@ const AboutMe = () => {
   return (
     <section id="about" className="my-4">
       <h2 className="text-2xl font-bold text-orange-900 mb-4">{t('about')}</h2>
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         {t('aboutIntro')}
       </p>      
-      <p className="mb-4">
+      <p className="mb-4 text-justify">
         {t('aboutDetails')}
       </p>           
     </section>

@@ -12,16 +12,21 @@ const Skills = () => {
   const skills = [
     'Spring Boot',
     'Java',
+    'JSF (JavaServer Faces)',
+    'JEE (Enterprise Edition)',
+    'Flutter/dart',
     'Laravel',
     'PHP',
     'React',
     'Python',
+    'Bootstrap',
+    'Tailwind CSS',
     'JavaScript',
     'MySQL',
   ];
 
   return (
-    <section className="my-8 ">
+    <section className="my-8 text-justify">
       <h2 className="text-2xl font-bold text-orange-900 mb-2">{t('skills')}</h2>
       <ul className="flex flex-wrap gap-2">
         {skills.map((skill) => (

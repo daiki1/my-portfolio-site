@@ -23,7 +23,7 @@ const Links = () => {
   ];
 
    return (
-    <section id="links" className="my-8">
+    <section id="links" className="my-8 text-justify">
       <h2 className="text-2xl font-bold text-orange-900 mb-4">{t('findMe')}</h2>
       <p className="text-gray-700 mb-4 max-w-xl">
         {t('freelancingNote')}
