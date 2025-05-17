@@ -1,12 +1,36 @@
-# React + Vite
+# My Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React**, **Vite**, and **Tailwind CSS** showcasing my skills, projects, and contact information.  
+The site supports **English** and **Spanish** languages with a language switcher.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Responsive design using Tailwind CSS  
+- Language switcher supporting English and Spanish  
+- Projects section with detailed descriptions and features  
+- Contact links with icons for LinkedIn, GitHub, Upwork, and Fiverr  
+- Smooth UI with color theme in orange gamma  
+- Skill hover effect to enlarge skill icons/text  
+- Clear about me section describing my experience and journey  
+- Freelancer status note on contact section  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React** (with functional components and hooks)  
+- **Vite** as the build tool for fast development and hot reload  
+- **Tailwind CSS** for utility-first styling  
+- **react-i18next** for internationalization (i18n) support and translations  
+- **react-icons** for social media and UI icons  
+
+---
+
+## Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/daiki1/my-portfolio-site.git
+   cd my-portfolio-site
