@@ -38,5 +38,7 @@ The site supports **English** and **Spanish** languages with a language switcher
    ```
 
 2. To sent changes to my GitHub Page
+```bash
    npm run build
    npm run deploy
+   ```
