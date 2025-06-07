@@ -14,6 +14,10 @@ export const projectsMeta = [
     url: "https://github.com/daiki1/springboot-essentials-template",
   },
   {
+    id: "flutter-auth-template",
+    url: "https://github.com/daiki1/flutter_app_template_with_login",
+  },
+  {
     id: "portfolio-site",
     url: "https://github.com/daiki1/my-portfolio-site",
   },

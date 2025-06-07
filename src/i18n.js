@@ -45,6 +45,30 @@ i18n
                     "Sample Data: Countries, States, Cities API (Importing may take a while only the first time it runs)"
                 ]
             }, 
+            "flutter-auth-template": {
+                name: "Flutter Auth Starter App",
+                description:
+                "A ready-to-use Flutter application template designed for secure, modern mobile apps that works with my other project \"Spring Boot API Starter Template\". It features access and refresh token authentication, robust session management, and a clean architecture to jumpstart any Flutter project with scalability and maintainability in mind.",
+                features: [
+                    "Login system: Login, Sign Up, Forgot Password (request code), Reset Password (with code)",
+                    "Connects to Spring Boot backend with full JWT-based authentication",
+                    "Role-based API access demo: Test endpoints that return success or error based on user roles/permissions",
+                    "Multi-language support (English 🇺🇸 / Spanish 🇪🇸): Language can be changed from Login screen or Home menu",
+                    "Location picker example: Select Country → State → City (demonstrates API connection flow)",
+                    "Flutter version: 3.32.0",
+                    "Dart version: 3.8.0",
+                    "Android Studio with Java 21",
+                    "Custom reusable widgets: Button, Dropdown, Input field, Popup dialog. Global loader overlay",
+                    "Language selector",
+                    "App configuration for changing the backend IP",
+                    "Centralized error handling",
+                    "Refresh token logic with session expiration message",
+                    "post and get functions customized for consistent API usage",
+                    "translation.dart extending Translations from GetX",
+                    "Field validators",
+                    "State management using GetX with Obx",
+                ]
+            }, 
             "portfolio-site": {                    
                 name: "My Portfolio Site",
                 description:
@@ -95,6 +119,29 @@ i18n
                         "Datos de ejemplo: API de países, estados y ciudades (La importación puede tardar, solo la primera vez que se ejecuta)"
                     ]
                 },
+                "flutter-auth-template": {
+                    name: "App de Inicio Flutter con Autenticación",
+                    description:
+                    "Una plantilla lista para usar de aplicación Flutter diseñada para apps móviles modernas y seguras que funciona con mi otro proyecto \"Spring Boot API Starter Template\". Cuenta con autenticación mediante tokens de acceso y refresco, manejo automático de sesiones y una arquitectura limpia pensada para escalar y mantener fácilmente cualquier proyecto Flutter.",
+                    features: [
+                        "Sistema de inicio de sesión: Iniciar sesión, Registrarse, ¿Olvidaste tu contraseña? (solicitar código), Restablecer contraseña (con código)",
+                        "Conexión al backend de Spring Boot con autenticación JWT completa",
+                        "Demostración de acceso a la API basado en roles: Endpoints de prueba que devuelven éxito o error según los roles/permisos del usuario",
+                        "Soporte multilenguaje (Inglés 🇺🇸 / Español 🇪🇸): El idioma se puede cambiar desde la pantalla de inicio de sesión o el menú principal",
+                        "Ejemplo de selector de ubicación: Seleccionar País → Estado → Ciudad (demuestra flujo de conexión con la API)",
+                        "Versión de Flutter: 3.32.0",
+                        "Versión de Dart: 3.8.0",
+                        "Android Studio con Java 21",
+                        "Widgets reutilizables personalizados: Botón, Desplegable, Campo de entrada, Diálogo emergente. Capa de carga global, Selector de idioma",
+                        "Configuración de la app para cambiar la IP del backend",
+                        "Manejo centralizado de errores",
+                        "Lógica de refresh token con mensaje de expiración de sesión",
+                        "Funciones post y get personalizadas para un uso consistente de la API",
+                        "translation.dart extendiendo Translations de GetX",
+                        "Validadores de campos",
+                        "Gestión de estado usando GetX con Obx",
+                    ]
+                }, 
                 "portfolio-site": {
                     name: "Mi Sitio de Portafolio",
                     description:
