@@ -64,6 +64,24 @@ i18n
                     "State management using GetX with Obx",
                 ]
             }, 
+            "react-auth-template": {
+                name: "React Auth Starter App",
+                description:
+                "A production-ready React project built using the Lovable.dev generator, customized and extended to work seamlessly with a Spring Boot backend (\"Spring Boot API Starter Template\").",                
+                features: [
+                    "Complete Authentication System: Login, registration, forgot password, and password reset functionality",
+                    "Role-Based Access Control: Admin, user, and auditor roles with protected routes",
+                    "JWT Token Management: Automatic token refresh and secure storage",
+                    "Internationalization (i18n): Multi-language support with React i18next",
+                    "User Management: Admin panel for managing users and roles",                        
+                    "Audit Logging: Comprehensive audit trail with filtering and pagination",
+                    "Responsive Design: Mobile-first approach with Tailwind CSS",
+                    "Modern UI Components: Built with shadcn/ui component library",
+                    "Type Safety: Full TypeScript implementation",
+                    "API Integration: Seamless integration with Spring Boot backend",
+                    "Real-time Updates: React Query for efficient data fetching and caching",
+                ]
+            }, 
             "portfolio-site": {                    
                 name: "My Portfolio Site",
                 description:
@@ -131,6 +149,23 @@ i18n
                         "Validadores de campos",
                         "Gestión de estado usando GetX con Obx",
                     ]
+                }, 
+                "react-auth-template": {
+                  "name": "Aplicación de Inicio con Autenticación en React",
+                  "description": "Un proyecto de React listo para producción, construido utilizando el generador Lovable.dev, personalizado y ampliado para funcionar perfectamente con un backend en Spring Boot (\"Spring Boot API Starter Template\").",
+                  "features": [
+                    "Sistema completo de autenticación: inicio de sesión, registro, recuperación de contraseña y restablecimiento",
+                    "Control de acceso basado en roles: roles de administrador, usuario y auditor con rutas protegidas",
+                    "Gestión de tokens JWT: renovación automática de tokens y almacenamiento seguro",
+                    "Internacionalización (i18n): soporte multilenguaje con React i18next",
+                    "Gestión de usuarios: panel de administración para gestionar usuarios y roles",
+                    "Registro de auditoría: historial completo con filtrado y paginación",
+                    "Diseño responsivo: enfoque móvil primero con Tailwind CSS",
+                    "Componentes de interfaz modernos: construido con la biblioteca de componentes shadcn/ui",
+                    "Seguridad de tipos: implementación completa con TypeScript",
+                    "Integración con API: integración fluida con backend en Spring Boot",
+                    "Actualizaciones en tiempo real: React Query para obtención de datos eficiente y caché"
+                  ]
                 }, 
                 "portfolio-site": {
                     name: "Mi Sitio de Portafolio",

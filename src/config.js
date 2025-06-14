@@ -18,6 +18,10 @@ export const projectsMeta = [
     url: "https://github.com/daiki1/flutter_app_template_with_login",
   },
   {
+    id: "react-auth-template",
+    url: "https://github.com/daiki1/react-web-with-lovable-dev/tree/main",
+  },
+  {
     id: "portfolio-site",
     url: "https://github.com/daiki1/my-portfolio-site",
   },
