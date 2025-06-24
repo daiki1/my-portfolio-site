@@ -41,4 +41,19 @@ The site supports **English** and **Spanish** languages with a language switcher
 ```bash
    npm run build
    npm run deploy
-   ```
+
+   http://localhost:5173/my-portfolio-site/
+```
+
+## Deployment with Docker
+
+You can run this portfolio as a static website using Docker.
+
+### Build the Docker image
+
+```bash
+docker build -t my-portfolio .
+docker run -p 8081:80 my-portfolio
+
+http://localhost:8081/my-portfolio-site/
+```
